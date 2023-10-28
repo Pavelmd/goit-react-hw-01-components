@@ -4,6 +4,8 @@ import { App } from 'components/App';
 import './index.css';
 import { Profile } from 'components/Profile/Profile';
 import user from 'components/Profile/user.json'
+import { Statistics } from 'components/Statistics/Statistics';
+import data from './components/Statistics/data.json';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -15,6 +17,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         avatar={user.avatar}
         stats={user.stats}
       />
+      <Statistics title="Upload stats" stats={data} />
+      <Statistics stats={data} />
       </App>
   </React.StrictMode>
 );
