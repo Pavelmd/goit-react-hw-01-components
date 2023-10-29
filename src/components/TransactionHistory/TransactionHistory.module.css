@@ -1,0 +1,27 @@
+.transactionHistory {
+  margin-top: 20px;
+}
+
+.Theader {
+  padding: 25px;
+  background-color: #02bbd7;
+  color: #fff;
+  font-size: 28px;
+  width: 30%;
+
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.Trow {
+  color: #9ea2af;
+  font-size: 28px;
+  text-align: center;
+  width: 33%;
+
+  text-transform: capitalize;
+}
+
+.valuesRow:nth-child(even) {
+  background-color: #f2f2f2;
+}
